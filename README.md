@@ -50,3 +50,7 @@ npm run start
 * Be mindful of the Gemini AI service's terms regarding data privacy and responsible usage.
 * Consider security best practices when handling API keys.
 * Explore the `ask-gemini` library's capabilities for advanced functionalities.
+
+## License
+
+This package is licensed under the ISC License. See the LICENSE file for details.
