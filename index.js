@@ -1,7 +1,7 @@
 import { setGeminiApiKey, askGeminiWithHistory } from 'ask-gemini';
 
 // SET YOUR API KEY HERE!!
-const GOOGLE_API_KEY = "";
+const GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY";
 setGeminiApiKey(GOOGLE_API_KEY);
 
 // DEFINING THE START HISTORY
