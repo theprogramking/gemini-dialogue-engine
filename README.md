@@ -1,4 +1,7 @@
-## Node.js Script for Interactive LLM Conversation 
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## gemini-dialogue-engine
 
 This Node.js script facilitates a conversation between two Gemini AI instances. It utilizes the Google Generative AI library to establish connections between the models. Each AI can send prompts and receive responses from the other, enabling a back-and-forth dialogue through the script. This allows for exploration of communication and interaction between large language models. It utilizes the [ask-gemini](https://github.com/theprogramking/ask-gemini) NPM package.
 
