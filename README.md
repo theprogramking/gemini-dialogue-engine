@@ -7,8 +7,8 @@ This Node.js script facilitates a conversation between two Gemini AI instances. 
 
 **Prerequisites:**
 
-* Node.js and npm (or yarn) installed.
-* Valid API key for your chosen LLM service (e.g., Gemini, Bard, Jurassic-1 Jumbo).
+* Node.js and npm installed.
+* Valid API key for your Gemini.
 
 **Installation:**
 
@@ -25,7 +25,7 @@ npm install
 1. **Replace Placeholder API Key:**
    * Open `index.js` in a text editor.
    * Find the line `const GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY";`
-   * Replace `"YOUR_GOOGLE_API_KEY"` with your actual LLM service API key.
+   * Replace `"YOUR_GOOGLE_API_KEY"` with your actual Google Gemini API key.
 
 2. **(Optional) Customize Starting History:**
    * The `history` array in `index.js` defines the initial conversation flow.
@@ -44,11 +44,6 @@ npm run start
 * This example uses a placeholder API key. Replace it with your own.
 * Free API keys may have limitations. Check the Gemini AI documentation for details.
 * This is a basic example. Enhance it with error handling, user input validation, and more complex conversation management.
-
-**Additional Considerations:**
-
-* Be mindful of the Gemini AI service's terms regarding data privacy and responsible usage.
-* Consider security best practices when handling API keys.
 * Explore the `ask-gemini` library's capabilities for advanced functionalities.
 
 ## License
